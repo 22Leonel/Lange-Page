@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: none;
+}
+body{
+    background-color: #e8e6e7;;
+}
+header{
+    padding: 20px 70px;
+    background-color: #1d1d1f;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 60px;
+}
+.navigation li a{
+    display: block;
+   color: #888;
+   font-weight: bold;
+   padding-bottom: 4px;
+   transition: all 0.5s ease-in-out;
+}
+.navigation li a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.navigation li .checkd{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.logo{
+    width: 50px;
+}
+
+/*Main*/
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+
+.main-text img{
+    
+    margin-bottom: 3vh;
+}
+.main-text h3{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.main-text p{
+    margin-bottom: 1.5rem;
+}
+.main-text h6{
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.main-text .btn a{
+   padding: 10px 25px;
+   background-color: #0071e3;
+   border-radius: 20px;
+   color: #FFF;
+   font-size: 1.5rem ;
+   transition: all 0.5s;
+}
+.main-text .btn:hover{
+    opacity: .85;
+ }
+.main-text .text h5{
+    font-size: 1rem;
+    columns: #444;
+    margin: 2rem 0;
+}
+.main-text .container-cor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main-text .container-cor span{
+    width: 40px;
+    height: inherit;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+    transition: all 0.5s;
+}
+.container-cor span:hover{
+    opacity: 80;
+}
+
+
+
+.gree{
+    background-color: #697a67;
+}
+.pink{
+    background-color: #ffecd2;
+}
+.blue{
+    background-color: #8fb5ce;
+}
+.red{
+    background-color: #c8010d;
+}
+.ouro{
+    background-color: #ffecd2;
+}
+.roxo{
+    background-color: #423647;
+}
