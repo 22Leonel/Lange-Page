@@ -25,6 +25,7 @@
     </header>
     <main>
         <section>
+            <div class="circle"></div>
             <div class="main-text">
                 <img src="./_images/iphone13.png" alt="iphone13">
                 <h3>
@@ -34,28 +35,25 @@
                     Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de foto e vídeo. <br>
                     No iphone 13 você faz coisas que no nunca pode, ele ainda vem em dois tamanhos.
                 </p>
-                <h6>A partir de 1.360.000 AO</h6>
+                <h6>A partir de 999.000 AO</h6>
                 <button class="btn"><a href="#">Comprar</a></button>
                 <div class="text">
                     <h5>Escolha a sua cor favorita:</h5>
                 </div>
                 <div class="container-cor">
-                    <span class="green"></span>
-                    <span class="pink"></span>
-                    <span class="blue"></span>
-                    <span class="red"></span>
-                    <span class="ouro"></span>
-                    <span class="roxo"></span>
+                    <span class="green" onclick="imgTrocar('./_images/green.png'); circleColor('#445c42')"></span>
+                    <span class="pink" onclick="imgTrocar('./_images/pink.png'); circleColor('#ffc6cf')"></span>
+                    <span class="blue" onclick="imgTrocar('./_images/blue.png'); circleColor('#8fb5ce')"></span>
+                    <span class="red" onclick="imgTrocar('./_images/red.png'); circleColor('#c8010d')"></span>
+                    <span class="ouro" onclick="imgTrocar('./_images/ouro.png'); circleColor('#e7cfb7')"></span>
+                    <span class="roxo" onclick="imgTrocar('./_images/roxo.png'); circleColor('#423647')"></span>
                 </div>
-
-                <div id="pink"></div>
             </div>
             <div class="main-igm">
                 <img src="./_images/green.png" alt="Imagem do iphone" id="phone">
             </div>
-
         </section>
     </main>
-    <script src="./_js/funtions"></script>
+    <script src="./_js/funtions.js"></script>
 </body>
 </html>
